@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>用户登录</title>
+  <link rel="stylesheet" href="css/login.css" />
+ </head>
+ <body>
+    <header id="header"></header>
+    <div id="bg">
+        <form name="lg">
+            <span class="top5">账号密码登录</span>
+            <div class="form_group">
+                <input type="text" name="uname" id="uname" class="input" placeholder="请输入用户名">
+                <div class="msg"></div>
+            </div>
+            <div class="form_group">
+                <input type="password" name="upwd" id="upwd" class="input" placeholder="请输入密码">
+                <div class="msg"></div>
+            </div>
+            <span class="checkbox"><input type="checkbox" id="c1">
+                <label for="c1">记住账号</label>
+                <div><a href="register.html">忘记密码</a></div>
+            </span>
+            <button class="login" id="sub">登录</button>
+            <div class="foot">
+                <div><img src="img/Q.png" alt=""/><a href="#">QQ</a></div>
+                <div><img src="img/weiX.png" alt=""/><a href="#">微信</a></div>
+                <div><img src="img/mico.png" alt=""/><a href="#">微博</a></div>
+                <span>没有账号，<a href="http://127.0.0.1:3000/register.html">注册></a></span>    
+            </div>
+        </form>                     
+    </div>
+    <footer id="footer"></footer>
+    <script src="js/ajax.js"></script>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/header.js"></script>
+ </body>
+</html>

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+    <style></style>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+<header id="header"></header>
+<div id="bg">
+    <form>
+        <span class="top5">新用户注册</span>
+        <div class="form_group">
+            <label class="lb">用户名:</label>  
+            <input type="text" class="input" id="uname" name="uname" placeholder="请输入用户名">
+            <span class="msg_mr msg"></span>
+        </div>
+        <div class="form_group">
+                <label class="lb">密码:</label>  
+                <input type="password" class="input" id="upwd" name="upwd" placeholder="请输入密码">
+                <span class="msg_mr msg"></span>
+        </div>
+        <div class="form_group">
+                <label class="lb">Email:</label>  
+                <input type="text" class="input" id="email" name="email" placeholder="请输入邮箱">
+                <span class="msg_mr msg"></span>
+        </div>
+        <div class="form_group">
+                <label class="lb">手机号:</label>  
+                <input type="text" class="input" id="phone" name="phone" placeholder="请输入手机号">
+                <span class="msg_mr msg"></span>
+        </div>
+        <div class="form_group">
+            <label class="lb">真实姓名:</label>  
+            <input type="text" class="input" id="user_name" name="user_name" placeholder="请输入真实姓名">
+            <span class="msg_mr msg"></span>
+        </div>
+        <span class="checkbox"><input type="checkbox" id="c1">
+            <label for="c1">我已阅读并接受<a href="#">《严选用户协议》</a></label>
+        </span>
+        <button id="sub" class="reg">提交注册信息</button>
+        <div class="foot">
+            <div class="foot1">
+                <div><img src="img/Q.png" alt=""/><a href="#">QQ</a></div>
+                <div><img src="img/weiX.png" alt=""/><a href="#">微信</a></div>
+                <div><img src="img/mico.png" alt=""/><a href="#">微博</a></div>
+                <span>已有账号，<a href="http://127.0.0.1:3000/login.html">登录></a></span>    
+            </div>
+        </div>
+    </form>
+</div>
+<footer id="footer"></footer>
+<script src="js/ajax.js"></script>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/register.js"></script>
+<script src="js/footer.js"></script>
+<script src="js/header.js"></script>
+</body>
+</html>

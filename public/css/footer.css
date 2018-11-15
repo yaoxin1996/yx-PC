@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#footer{
+    width: 1450px;
+    margin: 0 auto;
+}
+#body{
+    position: relative;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h4{
+    text-align: center;
+    font-weight: normal;
+    color: #333;
+}
+.top1{
+    width: 1450px;
+    display: block;
+    margin:20px auto;
+}
+.top1 li{
+    float: left;
+    display: inline-block;
+    widows: 1450px;
+}
+/*左*/
+.kh{
+    width: 80px;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background-color: #fff;
+}
+.kh1{
+    margin-left: 145px;
+}
+.kh2{
+    margin-left: 40px;
+}
+.left{
+    width: 480px;
+    height: 204px;
+    border-right: 1px solid #ccc;
+}
+.khfw{
+    position: relative;
+}
+.khfw div{
+    float: left;
+    margin-top: 25px;
+}
+.kf{
+    width: 31px;
+    height: 26px;
+    position: absolute;
+    left: 170px;
+    background-image: url(../img/icon-yxfoot.png);
+    background-position: 0 -232px;
+}
+.kf:hover{
+    background-image: url(../img/icon-yxfoot.png);
+    background-position: 0 -196px;
+}
+
+.sk{
+    font-size: 14px;
+    color: #333;
+    position: absolute;
+    top: 92px;
+    left: 158px;
+}
+.sk:hover{
+    color: #b4a078;
+}
+.sy1{
+    font-size: 14px;
+    color: #333;
+    position: absolute;
+    top: 92px;
+    left: 278px;
+}
+.sy1:hover{
+    color: #b4a078;
+}
+.yh{
+    width: 31px;
+    height: 26px;
+    position: absolute;
+    left: 290px;
+    background-image: url(../img/icon-yxfoot.png);
+    background-position: 0 -99px;
+}
+.yh:hover{
+    background-image: url(../img/icon-yxfoot.png);
+    background-position: 0 -62px;
+}
+/*中*/
+.middle1{
+    display: block;
+    width: 480px;
+    height: 204px;
+    border-right: 1px solid #ccc;
+    margin: 0 auto;
+}
+.middle1 div{
+    margin: 25px 50px;
+    font-size: 14px;
+    color: #333;
+}
+.img{
+    position: relative;
+}
+.img span{
+    position: absolute;
+    top: 10px;
+}
+.yx{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: -20px;
+    left: 40px;
+    background-image: url(../img/icon-yxfoot.png);
+    background-position: 0 32px;
+}
+.wx{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: -20px;
+    left: 90px;
+    background-image: url(../img/icon-yxfoot.png);
+    background-position: 0 74px;
+}
+.wb{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: -20px;
+    left: 140px;
+    background-image: url(../img/icon-yxfoot.png);
+    background-position: 0 177px;
+}
+/*右*/
+.right{
+    width: 480px;
+    height: 204px;
+    position: relative;
+}
+.right img{
+    display: block;
+    margin: 25px auto;
+    /*margin-left:50px;*/
+}
+.xz{
+    font-size: 14px;
+    color: #b4a078;
+    display: block;
+    margin-left:170px;
+    position: absolute;
+    top: 170px;
+}
+
+/*底部黑色*/
+#bottom1{
+    position: absolute;
+    display: block;
+    background-color: #414141;
+    width: 1450px;
+    height: 204px;
+    top: 224px;
+}
+
+.db{
+    width: 1160px;
+    height: 110px;
+    margin: 0 auto;
+    border-bottom: 1px solid #4F4F4F; 
+}
+.db li{
+    margin-top: 10px;
+}
+.db span{
+    font-size: 18px;
+    color: #fff;
+}
+.h1 span{
+    position: absolute;
+    top: 60px;
+    left: 295px;
+}
+.hh{
+    position: absolute;
+    top: 45px;
+    left: 230px;
+    width: 51px;
+    height: 51px;
+    background-image: url(../img/icon-yxfoot.png);
+    background-position: 0 0px;
+}
+.h2 span{
+    position: absolute;
+    top: 60px;
+    left: 700px;
+}
+.yf{
+    position: absolute;
+    top: 45px;
+    left: 630px;
+    width: 51px;
+    height: 51px;
+    background-image: url(../img/icon-yxfoot.png);
+    background-position: 0 -310px;
+}
+.h3 span{
+    position: absolute;
+    top: 60px;
+    left: 1115px; 
+}
+.pz{
+    position: absolute;
+    top: 45px;
+    left: 1045px;
+    width: 51px;
+    height: 51px;
+    background-image: url(../img/icon-yxfoot.png);
+    background-position: 0 -135px;
+}
+.nav1{
+    position: absolute;
+    display:block;
+    width: 800px;
+    margin-left: 430px;
+    top: 365px;
+}
+.nav1 span b{
+    color: #999;
+    font-weight: normal;
+}
+.nav1 a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #999;
+}
+.last{
+    display: block;
+    position: absolute;
+    top: 390px;
+    margin-left: 260px;
+}
+.last p{
+    font-size: 13px;
+    color: #999;
+}

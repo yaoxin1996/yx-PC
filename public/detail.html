@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品详情</title>
+    <link rel="stylesheet" href="css/detail.css">
+    <link rel='stylesheet' href='css/jquery.cardtabs.css'>
+</head>
+<body>
+    <header id="header"></header>
+    <div id="container">
+        <!--导航-->
+        <div id="nav">
+            <!--<div>首页</div>
+            <span>></span>
+            <div><a href="#">商品</a></div>
+            <span>></span>
+            <div><a href="#">详情</a></div>-->
+        </div>
+        <div class="show">             
+            <div id="s1">
+                <!--展示图-左-->
+                <div id="b-img">
+                    <img src="img/d8.png" alt="">
+                </div>
+                <!--展示图-右-->
+                <ul id="s-img">
+                    <!--<li><img src="img/d8.png" data-lg="img/d1.png" alt=""></li>
+                    <li><img src="img/d8.png" data-lg="img/d1.png" alt=""></li>
+                    <li><img src="img/d8.png" data-lg="img/d1.png" alt=""></li>-->
+                    
+                </ul>
+            </div>
+            <!--右侧细节-->
+            <div id="detail">
+                <div id="d1">
+                    <!--<div class="line"> 
+                        <span class="l-t t">毛球修剪器</span>
+                        <span class="l-t n">96.2%</span>
+                    </div>
+                    <div class="line">
+                        <span class="l-f d">风速感应式剔“球”不伤衣</span>
+                        <span class="l-f p">好评率</span>
+                    </div>-->
+                </div>
+                <!--价格-->
+                <div class="price">
+                    <div id="l1">
+                        <!--<span class="p-t">价格</span>
+                        <span class="l-y">￥</span>
+                        <span class="l-p">49</span>
+                        <span class="l-s">超级会员专享价￥46.60</span>
+                        <a href="#">立即开通></a>-->
+                    </div>
+                    <!--积分-->
+                    <div class="l2">
+                        <span class="p-t">积分</span>
+                        <span class="l-s">购买最高得4积分</span>
+                    </div>
+                    <!--配送-->
+                    <div class="l3">
+                        <span class="p-t">配送</span>
+                        <span class="l-z">至</span>
+                        <span class="drop">
+                            <a href="#" class="d-a" data-trigger="drop">请选择地址</a>
+                            <ul class="drop-menu">
+                                <li>
+                                    <div><a href="#">北京市</a></div>
+                                    <div><a href="#">天津市</a></div>
+                                    <div><a href="#">河北市</a></div>
+                                    <div><a href="#">山西市</a></div>
+                                    <div><a href="#">内蒙古</a></div>
+                                    <div><a href="#">辽宁省</a></div>
+                                    <div><a href="#">吉林省</a></div>
+                                    <div><a href="#">黑龙江省</a></div>
+                                    <div><a href="#">上海市</a></div>
+                                    <div><a href="#">江苏省</a></div>
+                                    <div><a href="#">浙江省</a></div>
+                                    <div><a href="#">安徽省</a></div>
+                                    <div><a href="#">福建省</a></div>
+                                    <div><a href="#">江西省</a></div>
+                                    <div><a href="#">山东省</a></div>
+                                    <div><a href="#">河南省</a></div>
+                                    <div><a href="#">湖北省</a></div>
+                                    <div><a href="#">湖南省</a></div>
+                                    <div><a href="#">广东省</a></div>
+                                    <div><a href="#">广西壮族自治区</a></div>
+                                    <div><a href="#">海南省</a></div>
+                                    <div><a href="#">重庆市</a></div>
+                                    <div><a href="#">四川省</a></div>
+                                    <div><a href="#">贵州省</a></div>
+                                    <div><a href="#">云南省</a></div>
+                                    <div><a href="#">西藏自治区</a></div>
+                                    <div><a href="#">陕西省</a></div>
+                                    <div><a href="#">甘肃省</a></div>
+                                    <div><a href="#">青海省</a></div>
+                                    <div><a href="#">宁夏回族自治区省</a></div>
+                                    <div><a href="#">新疆维吾尔自治区</a></div>
+                                    <div><a href="#">台湾省</a></div>
+                                    <div><a href="#">香港特别行政区</a></div>
+
+                                </li> 
+                            </ul>
+                        </span>
+                    </div>
+                    <!--服务-->
+                    <div>
+                        <span class="p-t">服务</span>
+                        <span class="l-s"> 
+                            ･ 支持30天无忧退换货 ･ 48小时快速退款 ･ 满88元免邮费 ･ 网易自营品牌 ･ 国内部分地区无法配送    
+                        </span>
+                    </div>
+                </div>
+                <!--加入购物车-->
+                <div class="cart1">
+                    <span class="p-t t1">数量</span>
+                    <div class="btn">
+                        <button class="btn1 btn-l"  type="button" id="sub">-</button>
+                        <input type="text" value="1" class="btn-i" id="i1">
+                        <button class="btn1 btn-r"  type="button" id="add">+</button>
+                    </div>
+                </div>
+                <!--立即购买按钮-->
+                <div class="btn-bottom">
+                    <a href="#" class="buy">
+                        <span class="sp1">立即购买</span>
+                    </a>
+                    <a href="#" class="join">
+                        <span class="sp2">加入购物车</span>
+                    </a>
+                </div>
+            </div> 
+        </div>
+        <!--大家都在看-->
+        <div class="dajia">
+            <span class="d-title">大家都在看</span>
+            <div id="d-list">
+                <!--<div class="dajia1">
+                    <div class="d1-img">
+                        <a href="#"><img src="img/b1.png" alt=""></a>
+                    </div>
+                    <div class="d1-title">
+                        <p class="d1-title-t"><a href="#">20寸光面铝镁合金</a></p>
+                        <p class="d1-title-b">¥999</p>
+                    </div>
+                </div>
+                <div class="dajia1">
+                    <div class="d1-img">
+                        <a href="#"><img src="img/b1.png" alt=""></a>
+                    </div>
+                    <div class="d1-title">
+                        <p class="d1-title-t"><a href="#">20寸光面铝镁合金</a></p>
+                        <p class="d1-title-b">¥999</p>
+                    </div>
+                </div>
+                <div class="dajia1">
+                    <div class="d1-img">
+                        <a href="#"><img src="img/b1.png" alt=""></a>
+                    </div>
+                    <div class="d1-title">
+                        <p class="d1-title-t"><a href="#">20寸光面铝镁合金</a></p>
+                        <p class="d1-title-b">¥999</p>
+                    </div>
+                </div>
+                <div class="dajia1">
+                    <div class="d1-img">
+                        <a href="#"><img src="img/b1.png" alt=""></a>
+                    </div>
+                    <div class="d1-title">
+                        <p class="d1-title-t"><a href="#">20寸光面铝镁合金</a></p>
+                        <p class="d1-title-b">¥999</p>
+                    </div>
+                </div>
+                <div class="dajia1">
+                    <div class="d1-img">
+                        <a href="#"><img src="img/b1.png" alt=""></a>
+                    </div>
+                    <div class="d1-title">
+                        <p class="d1-title-t"><a href="#">20寸光面铝镁合金</a></p>
+                        <p class="d1-title-b">¥999</p>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+        <!--详情-->
+        <div class="dt5">
+            <div class="container" style="width:900px;background:#fff;">
+                <div class='example'>
+                    <div class='tabsholder3'>
+                        <div data-tab="详情" id="d2">
+                            <!--<div class="dt1">       
+                                <ul class="details">
+                                    <li class="ft">
+                                        <span class="lt">适用季节</span>
+                                        <span class="rt">四季通用</span>
+                                    </li>
+                                    <li class="ft">
+                                        <span class="lt">面料</span>
+                                        <span class="rt">全棉</span>
+                                    </li>
+                                    <li class="ft">
+                                        <span class="lt">风格</span>
+                                        <span class="rt">轻奢、现代简约</span>
+                                    </li>
+                                    <li class="ft">
+                                        <span class="lt">工艺</span>
+                                        <span class="rt">提花</span>
+                                    </li>
+                                    <li class="dt">
+                                        <span class="lt">尺寸</span>
+                                        <span class="rt1">1.5米床： 被套 200*230cm/ 枕套：48*74cm*2/ 床单：245*250cm
+                                            1.8米/ 2.0米床：被套 220*240cm/ 枕套：48*74cm*2/ 床单：245*270cm</span>
+                                    </li>
+                                    <li class="dt">
+                                        <span class="lt">温馨提示</span>
+                                        <span class="rt1">7天无忧退换货说明：需产品、配件保持完好，无磨损、污渍，包材、说明书、合格证齐全，商品未经安装或使用，不影响二次销售。</span>
+                                    </li>
+                                    <li class="dt">
+                                        <span class="lt">安装说明</span>
+                                        <span class="rt1">本产品安装便捷，严选不提供上门安装服务，用户可根据说明书自行安装，如安装遇到问题，请联系严选客服指导</span>
+                                    </li>
+                                </ul> --> 
+                                <!--细节图片   
+                                <div class="xijie">
+                                    <img src="img/yxsp.png" alt="">
+                                    <img src="img/b1.png" alt="">
+                                </div>
+                            </div>-->
+                        </div>
+                        <div data-tab="评价">
+                            <div class="pingjia">
+                                <div class="pingjia-top">
+                                    <div class="ping-s">
+                                        <div class="ping-s-t">好评率</div>
+                                        <div class="ping-score">98.9%</div>
+                                        <div class="p-star">★★★★★</div>
+                                    </div>
+                                    <div class="ping-w">
+                                        <div class="ping-w-t">大家都在说:</div>
+                                        <div class="ping-w-l">
+                                            <span class="span1">全部(445)</span>
+                                            <span>有图(26)</span>
+                                            <span>追评(5)</span>
+                                            <span>质量上乘(16)</span>
+                                            <span>性价比高(12)</span>
+                                            <span>很舒服(9)</span>
+                                            <span>宝贝不错(6)</span>
+                                            <span>推荐购买(19)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pingjia-middle">
+                                    <span class="pingjia-p">排序:</span>
+                                    <span class="pingjia-p1">默认</span>
+                                    <span>评价时间</span>
+                                </div>
+                                <div class="pingjia-bottom">
+                                    <div class="pingjia-b1">
+                                        <div class="avatar">
+                                        <img src="img/avatar.png" alt="">
+                                        <div class="ava-n">a***23</div>
+                                        </div>
+                                        <div class="ava-detail">
+                                            <p class="p-star">★★★★★</p>
+                                            <p class="p-sec">颜色:*** 尺寸:****</p>
+                                            <p class="p-ping">收到就迫不及待的打开了，真的很好，做工精细，还是严选的东西可靠，相信严选</p>
+                                            <p class="p-time">2018-09-11 18:36</p>
+                                            <div class="p-res">小选回复：您的满意，一直是我们的追求，有您的支持我们会努力做的更好，期待您的再次光临！</div>
+                                        </div>
+                                    </div>
+                                    <div class="pingjia-b1">
+                                        <div class="avatar">
+                                        <img src="img/avatar.png" alt="">
+                                        <div class="ava-n">a***23</div>
+                                        </div>
+                                        <div class="ava-detail">
+                                            <p class="p-star">★★★★★</p>
+                                            <p class="p-sec">颜色:*** 尺寸:****</p>
+                                            <p class="p-ping">收到就迫不及待的打开了，真的很好，做工精细，还是严选的东西可靠，相信严选</p>
+                                            <p class="p-time">2018-09-11 18:36</p>
+                                            <div class="p-res">小选回复：您的满意，一直是我们的追求，有您的支持我们会努力做的更好，期待您的再次光临！</div>
+                                        </div>
+                                    </div>
+                                    <div class="pingjia-b1">
+                                        <div class="avatar">
+                                        <img src="img/avatar.png" alt="">
+                                        <div class="ava-n">a***23</div>
+                                        </div>
+                                        <div class="ava-detail">
+                                            <p class="p-star">★★★★★</p>
+                                            <p class="p-sec">颜色:*** 尺寸:****</p>
+                                            <p class="p-ping">收到就迫不及待的打开了，真的很好，做工精细，还是严选的东西可靠，相信严选</p>
+                                            <p class="p-time">2018-09-11 18:36</p>
+                                            <div class="p-res">小选回复：您的满意，一直是我们的追求，有您的支持我们会努力做的更好，期待您的再次光临！</div>
+                                        </div>
+                                    </div>
+                                    <div class="pingjia-b1">
+                                        <div class="avatar">
+                                        <img src="img/avatar.png" alt="">
+                                        <div class="ava-n">a***23</div>
+                                        </div>
+                                        <div class="ava-detail">
+                                            <p class="p-star">★★★★★</p>
+                                            <p class="p-sec">颜色:*** 尺寸:****</p>
+                                            <p class="p-ping">收到就迫不及待的打开了，真的很好，做工精细，还是严选的东西可靠，相信严选</p>
+                                            <p class="p-time">2018-09-11 18:36</p>
+                                            <div class="p-res">小选回复：您的满意，一直是我们的追求，有您的支持我们会努力做的更好，期待您的再次光临！</div>
+                                        </div>
+                                    </div>
+                                    <div class="pingjia-b1">
+                                        <div class="avatar">
+                                        <img src="img/avatar.png" alt="">
+                                        <div class="ava-n">a***23</div>
+                                        </div>
+                                        <div class="ava-detail">
+                                            <p class="p-star">★★★★★</p>
+                                            <p class="p-sec">颜色:*** 尺寸:****</p>
+                                            <p class="p-ping">收到就迫不及待的打开了，真的很好，做工精细，还是严选的东西可靠，相信严选</p>
+                                            <p class="p-time">2018-09-11 18:36</p>
+                                            <div class="p-res">小选回复：您的满意，一直是我们的追求，有您的支持我们会努力做的更好，期待您的再次光临！</div>
+                                        </div>
+                                    </div>
+                                    <div class="pingjia-b1">
+                                        <div class="avatar">
+                                        <img src="img/avatar.png" alt="">
+                                        <div class="ava-n">a***23</div>
+                                        </div>
+                                        <div class="ava-detail">
+                                            <p class="p-star">★★★★★</p>
+                                            <p class="p-sec">颜色:*** 尺寸:****</p>
+                                            <p class="p-ping">收到就迫不及待的打开了，真的很好，做工精细，还是严选的东西可靠，相信严选</p>
+                                            <p class="p-time">2018-09-11 18:36</p>
+                                            <div class="p-res">小选回复：您的满意，一直是我们的追求，有您的支持我们会努力做的更好，期待您的再次光临！</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <!--右侧热销榜-->
+        <div class="onsale">
+            <div class="on-t1">24小时热销榜</div>
+            <div id="on-p">
+                <!--<div class="on-l">
+                    <div class="d2-img on-list">
+                        <a href="#"><img src="img/b1.png" alt=""></a>
+                    </div>
+                    <div class="d2-title">
+                        <p class="d1-title-t"><a href="#">20寸光面铝镁合金</a></p>
+                        <p class="d1-title-b">¥999</p>
+                    </div>
+                </div>
+                <div class="on-l">
+                    <div class="d2-img on-list">
+                        <a href="#"><img src="img/b1.png" alt=""></a>
+                    </div>
+                    <div class="d2-title">
+                        <p class="d1-title-t"><a href="#">20寸光面铝镁合金</a></p>
+                        <p class="d1-title-b">¥999</p>
+                    </div>
+                </div>
+                <div class="on-l">
+                    <div class="d2-img on-list">
+                        <a href="#"><img src="img/b1.png" alt=""></a>
+                    </div>
+                    <div class="d2-title">
+                        <p class="d1-title-t"><a href="#">20寸光面铝镁合金</a></p>
+                        <p class="d1-title-b">¥999</p>
+                    </div>
+                </div>
+                <div class="on-l">
+                    <div class="d2-img on-list">
+                        <a href="#"><img src="img/b1.png" alt=""></a>
+                    </div>
+                    <div class="d2-title">
+                        <p class="d1-title-t"><a href="#">20寸光面铝镁合金</a></p>
+                        <p class="d1-title-b">¥999</p>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+    <footer id="footer"></footer>
+
+ 
+    <script src="js/ajax.js"></script>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/detail.js"></script>
+    <script src="js/jquery.cardtabs.js"></script>
+    <script type='text/javascript'>
+		$('.tabsholder3').cardTabs({theme:'graygreen'});
+    </script>
+</body>
+</html>
